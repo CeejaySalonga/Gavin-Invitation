@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baptism Invitation - Daniel Gavin</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section with Envelope -->
+    <section id="hero" class="hero-section">
+        <div class="floral-decoration"></div>
+        <div class="container">
+            <div class="envelope-container">
+                <div class="envelope" id="envelope">
+                    <div class="envelope-front">
+                    </div>
+                    <div class="envelope-back"></div>
+                    <div class="envelope-content" id="envelope-content">
+                        <div class="invitation-card">
+                            <h1 class="invitation-title">You're Invited!</h1>
+                            <h2 class="couple-names">Daniel Gavin</h2>
+                            <p class="invitation-subtitle">is getting baptized</p>
+                            <div class="invitation-date">June 15, 2024</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation-links">
+                    <a href="#venue" class="nav-link">Where</a>
+                    <a href="#rsvp" class="nav-link">RSVP</a>
+                    <a href="#details" class="nav-link">Details</a>
+                    <a href="#faq" class="nav-link">FAQs</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Venue Section -->
+    <section id="venue" class="venue-section">
+        <div class="container">
+            <h2 class="section-title">The Ceremony</h2>
+            <div class="venue-content">
+                <div class="venue-info">
+                    <h3>St. Mary's Cathedral</h3>
+                    <p class="venue-description">
+                        A beautiful and sacred space where we will celebrate Daniel's baptism. 
+                        The cathedral features stunning architecture, peaceful gardens, and a 
+                        welcoming community ready to embrace this special moment.
+                    </p>
+                    <div class="venue-details">
+                        <div class="detail-item">
+                            <strong>Address:</strong> 123 Cathedral Way, Downtown, CA 90210
+                        </div>
+                        <div class="detail-item">
+                            <strong>Baptism Ceremony:</strong> 2:00 PM - Main Chapel
+                        </div>
+                        <div class="detail-item">
+                            <strong>Celebration:</strong> 3:30 PM - Parish Hall
+                        </div>
+                    </div>
+                </div>
+                <div class="venue-gallery">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=400&h=300&fit=crop" alt="Main Chapel">
+                        <p>Main Chapel</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=400&h=300&fit=crop" alt="Parish Hall">
+                        <p>Parish Hall</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=400&h=300&fit=crop" alt="Cathedral Gardens">
+                        <p>Cathedral Gardens</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section id="rsvp" class="rsvp-section">
+        <div class="container">
+            <h2 class="section-title">RSVP</h2>
+            <div class="rsvp-content">
+                <p class="rsvp-subtitle">Please respond by May 1st, 2024</p>
+                <form class="rsvp-form" id="rsvp-form">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Number of Guests *</label>
+                        <select id="guests" name="guests" required>
+                            <option value="">Select number of guests</option>
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guests</option>
+                            <option value="3">3 Guests</option>
+                            <option value="4">4 Guests</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="attending">Will you be attending? *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="attending" value="yes" required>
+                                <span class="radio-custom"></span>
+                                <span>Yes, I'll be there!</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="attending" value="no" required>
+                                <span class="radio-custom"></span>
+                                <span>Sorry, I can't make it</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="dietary">Dietary Restrictions</label>
+                        <textarea id="dietary" name="dietary" placeholder="Please let us know about any dietary restrictions or allergies"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message for the Couple</label>
+                        <textarea id="message" name="message" placeholder="Share your well wishes or special memories"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send RSVP</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Details Section -->
+    <section id="details" class="details-section">
+        <div class="container">
+            <h2 class="section-title">Baptism Details</h2>
+            
+            <!-- Calendar Section -->
+            <div class="calendar-section">
+                <h3 class="calendar-title">Mark Your Calendar</h3>
+                <div class="calendar-container">
+                    <div class="calendar">
+                        <div class="calendar-header">
+                            <h4 class="month-year">JUNE 2024</h4>
+                        </div>
+                        <div class="calendar-weekdays">
+                            <div class="weekday">Sun</div>
+                            <div class="weekday">Mon</div>
+                            <div class="weekday">Tue</div>
+                            <div class="weekday">Wed</div>
+                            <div class="weekday">Thu</div>
+                            <div class="weekday">Fri</div>
+                            <div class="weekday">Sat</div>
+                        </div>
+                        <div class="calendar-dates">
+                            <div class="date empty"></div>
+                            <div class="date empty"></div>
+                            <div class="date empty"></div>
+                            <div class="date empty"></div>
+                            <div class="date empty"></div>
+                            <div class="date empty"></div>
+                            <div class="date">1</div>
+                            <div class="date">2</div>
+                            <div class="date">3</div>
+                            <div class="date">4</div>
+                            <div class="date">5</div>
+                            <div class="date">6</div>
+                            <div class="date">7</div>
+                            <div class="date">8</div>
+                            <div class="date">9</div>
+                            <div class="date">10</div>
+                            <div class="date">11</div>
+                            <div class="date">12</div>
+                            <div class="date">13</div>
+                            <div class="date special">15</div>
+                            <div class="date">16</div>
+                            <div class="date">17</div>
+                            <div class="date">18</div>
+                            <div class="date">19</div>
+                            <div class="date">20</div>
+                            <div class="date">21</div>
+                            <div class="date">22</div>
+                            <div class="date">23</div>
+                            <div class="date">24</div>
+                            <div class="date">25</div>
+                            <div class="date">26</div>
+                            <div class="date">27</div>
+                            <div class="date">28</div>
+                            <div class="date">29</div>
+                            <div class="date">30</div>
+                        </div>
+                    </div>
+                    <div class="calendar-note">
+                        <p>Daniel's Baptism</p>
+                        <p class="calendar-date">June 15, 2024</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="details-content">
+                <div class="timeline">
+                    <h3>Baptism Timeline</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-time">1:30 PM</div>
+                        <div class="timeline-content">
+                            <h4>Guest Arrival</h4>
+                            <p>Welcome and gathering in the cathedral</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">2:00 PM</div>
+                        <div class="timeline-content">
+                            <h4>Baptism Ceremony</h4>
+                            <p>Sacred baptism ceremony in the main chapel</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">2:30 PM</div>
+                        <div class="timeline-content">
+                            <h4>Photos & Fellowship</h4>
+                            <p>Family photos and fellowship in the gardens</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">3:30 PM</div>
+                        <div class="timeline-content">
+                            <h4>Celebration</h4>
+                            <p>Reception and refreshments in the parish hall</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">5:00 PM</div>
+                        <div class="timeline-content">
+                            <h4>Blessing & Departure</h4>
+                            <p>Final blessing and celebration conclusion</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="additional-info">
+                    <div class="info-card">
+                        <h4>Dress Code</h4>
+                        <p>Sunday best attire requested. Modest and respectful clothing appropriate for a sacred ceremony.</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>Parking</h4>
+                        <p>Free parking available in the cathedral parking lot and street parking nearby.</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>Gifts</h4>
+                        <p>Your presence is the greatest gift. If you wish to give, consider a donation to the church or a small gift for Daniel.</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>Special Notes</h4>
+                        <p>This is a sacred and joyous occasion. We welcome all family and friends to celebrate this special milestone in Daniel's life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-content">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What time should I arrive?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Please arrive between 1:30-2:00 PM. The baptism ceremony will begin promptly at 2:00 PM.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is there parking available?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! Free parking is available in the cathedral parking lot and on nearby streets.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What should I wear?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sunday best attire is requested. Modest and respectful clothing appropriate for a sacred ceremony is recommended.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I bring my children?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! Children are welcome to attend this special celebration. We encourage families to come together.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Will there be refreshments?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, there will be a celebration reception with refreshments in the parish hall following the ceremony.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is this a religious ceremony?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, this is a Christian baptism ceremony. All are welcome to attend and celebrate this sacred milestone.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Daniel Gavin's Baptism. Made with ❤️</p>
+        </div>
+    </footer>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
